@@ -1,0 +1,57 @@
+body{
+  background-color:burlywood
+}
+.form_div {
+  width: 70%;
+  margin: 1% 0;
+
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+}
+.div1 input{
+  width:97%;
+  padding:5px;
+}
+.div2{
+  display: flex;
+  justify-content: space-between;
+}
+.div3 button{
+  width: 100%;
+  color: white;
+  margin:2px 0;
+  padding:1%;
+  background-color: rgb(124, 124, 234);
+  border:none;
+  border-radius:5px;
+
+}
+button:hover{
+  background-color:green;
+}
+button img{
+  width:20px;
+  height: 80%;
+  z-index:3;
+  background-color: white;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#passwordcheck{
+  margin-bottom: 20px;
+}
+.container{
+  width:60%;
+  background-color:aquamarine;
+   margin-left: 20%;
+   margin-top: 8%;
+   padding:12px;
+
+
+}
